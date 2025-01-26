@@ -72,7 +72,7 @@ export OWDISTRBUILD=0
 # if DOSBOX emulator is used then OWDOSBOX variable must be set
 # Uncoment and set OWDOSBOX variable bellow to point to DOSBOX emulator executable
 
-# export OWDOSBOX=dosbox
+export OWDOSBOX=dosbox
 
 # Windows documentation build process requires Microsoft Help Compilers which can
 # work only on Windows host therefore by default this build is disabled on non-Windows
