@@ -150,6 +150,8 @@ const char FAR BuiltIns[] = {
         "__LINUXARM__=\n"
     #elif defined( _M_ARM64 ) || defined( __arm64__ ) || defined( __aarch64__ )
         "__LINUXARM64__=\n"
+    #elif defined( _M_RISCV64 ) || defined( __riscv64__ )
+        "__LINUXRISCV64__=\n"
     #else
         #error Unknown CPU architecture
     #endif

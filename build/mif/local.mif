@@ -355,6 +355,7 @@ common_cppflags_ppc     = -D__PPC__
 common_cppflags_mps     = -D__MIPS__ -Umips
 common_cppflags_arm     = -D_M_ARM
 common_cppflags_a64     = -D_M_ARM64
+common_cppflags_riscv64     = -D_M_RISCV64
 
 common_cppflags_linux_386   = -D__LINUX_386__
 common_cppflags_linux_x64   = -D__LINUX_X64__
@@ -362,6 +363,7 @@ common_cppflags_linux_ppc   =
 common_cppflags_linux_mps   =
 common_cppflags_linux_arm   = -D__LINUX_ARM__
 common_cppflags_linux_a64   = -D__LINUX_ARM64__
+common_cppflags_linux_riscv64   = -D__LINUX_RISCV64__
 
 common_cppflags_bsd_386     = -D__BSD_386__
 common_cppflags_bsd_x64     = -D__BSD_X64__

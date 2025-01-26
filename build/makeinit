@@ -111,6 +111,9 @@ use_for_build_linuxarm = clang_gcc
 bld_cpu = a64
 bld_os = linux
 use_for_build_linuxa64 = clang_gcc
+!else ifdef __LINUXRISCV64__
+bld_cpu = riscv64
+bld_os = linux
 !else ifdef __BSD386__
 bld_cpu = 386
 bld_os = bsd
